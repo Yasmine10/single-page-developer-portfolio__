@@ -1,0 +1,30 @@
+@use "../abstracts/index" as *;
+
+body {
+    font-family: $ff;
+    font-size: $fs-body--mobile;
+    font-weight: $fw-regular;
+    line-height: $fs-lh-body;
+
+    color: $clr-primary-100;
+}
+
+.h1 {
+    font-size: $fs-h1--mobile;
+    font-weight: $fw-bold;
+    line-height: $fs-lh-h1;
+    letter-spacing: -2.5px;
+}
+
+.h2 {
+    font-size: $fs-h2--mobile;
+    font-weight: $fw-bold;
+    line-height: $fs-lh-h2;
+    letter-spacing: -1.5px;
+}
+
+.h3 {
+    font-size: $fs-h3;
+    font-weight: $fw-bold;
+    line-height: $fs-lh-h3;
+}

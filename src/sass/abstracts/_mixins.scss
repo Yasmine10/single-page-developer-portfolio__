@@ -1,0 +1,28 @@
+
+
+@mixin for-phone-only {
+    // max 599px width
+    @media (max-width: 37.4375rem) {
+        @content;
+    }
+}
+
+@mixin for-tablet-up {
+    // min 600px width
+    @media (min-width: 37.5rem) {
+        @content;
+    }
+}
+
+@mixin for-desktop-up {
+    // min 1200px width
+    @media (min-width: 75rem) {
+        @content;
+    }
+}
+
+@mixin breakpoint($width) {
+    @media (min-width: #{$width+'em'}) {
+        @content;
+    }
+}

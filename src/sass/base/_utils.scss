@@ -1,0 +1,30 @@
+@use "../abstracts/index" as *;
+
+.container {
+    --spacing: 32px;
+
+    @include for-tablet-up {
+        --spacing: 60px;
+    }
+    
+    @include for-desktop-up {
+        --spacing: 330px;
+    }
+
+    width: calc(100% - var(--spacing));
+    max-width: 90rem;
+    margin-inline: auto;
+}
+
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}

@@ -1,0 +1,21 @@
+@use "../abstracts/index" as *;
+
+
+.home-projects {
+    padding-bottom: pxToRem(80);
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin-bottom: pxToRem(40);
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: pxToRem(40);
+    }
+}
+

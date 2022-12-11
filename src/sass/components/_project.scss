@@ -1,0 +1,31 @@
+@use "../abstracts/index" as *;
+
+.project {
+    text-transform: uppercase;
+
+    &__img-container {
+
+    }
+
+    &__content {
+        .project {
+            &__title {
+                margin-top: pxToRem(20);
+                margin-bottom: pxToRem(8);
+            }
+
+            &__languages-used {
+                display: flex;
+                flex-wrap: wrap;
+                gap: pxToRem(18);
+            }
+        }
+    }
+
+    &__view-btns {
+        margin-top: pxToRem(20);
+
+        display: flex;
+        gap: pxToRem(30);
+    }
+}

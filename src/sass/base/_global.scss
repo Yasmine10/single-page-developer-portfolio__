@@ -1,0 +1,21 @@
+@use "../abstracts/index" as *;
+
+body {
+    background-color: $clr-primary-900;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.header-primary,
+.footer-primary {
+    flex-shrink: 0;
+}

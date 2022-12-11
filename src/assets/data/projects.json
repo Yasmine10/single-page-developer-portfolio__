@@ -1,0 +1,74 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Design portfolio",
+            "languages": [
+                "HTML",
+                "CSS"
+            ],
+            "imagePath": "project-1",
+            "liveLink": "",
+            "codeLink": ""
+        },
+        {
+            "id": 2,
+            "title": "E-learning landing page",
+            "languages": [
+                "HTML",
+                "CSS"
+            ],
+            "imagePath": "project-2",
+            "liveLink": "",
+            "codeLink": ""
+        },
+        {
+            "id": 3,
+            "title": "Todo web app",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "imagePath": "project-3",
+            "liveLink": "",
+            "codeLink": ""
+        },
+        {
+            "id": 4,
+            "title": "Entertainment web app",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "imagePath": "project-4",
+            "liveLink": "",
+            "codeLink": ""
+        },
+        {
+            "id": 5,
+            "title": "Memory game",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "imagePath": "project-5",
+            "liveLink": "",
+            "codeLink": ""
+        },
+        {
+            "id": 6,
+            "title": "Art gallery showcase",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "imagePath": "project-6",
+            "liveLink": "",
+            "codeLink": ""
+        }
+    ]
+}

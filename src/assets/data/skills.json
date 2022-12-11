@@ -1,0 +1,34 @@
+{
+    "skills": [
+        {
+            "id": 1,
+            "language": "HTML",
+            "experience": "4 years"
+        },
+        {
+            "id": 2,
+            "language": "CSS",
+            "experience": "4 years"
+        },
+        {
+            "id": 3,
+            "language": "JavaScript",
+            "experience": "4 years"
+        },
+        {
+            "id": 4,
+            "language": "Accessibility",
+            "experience": "4 years"
+        },
+        {
+            "id": 5,
+            "language": "React",
+            "experience": "3 years"
+        },
+        {
+            "id": 6,
+            "language": "Sass",
+            "experience": "3 years"
+        }
+    ]
+}
